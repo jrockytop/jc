@@ -1,0 +1,83 @@
+
+------------------------------------------------------------------------------
+jc - Programmers Calculator
+
+jc is an RPN calculator that uses syntax similar to C for numerical input and
+operations.  Each number entered retains its base and size individually.
+
+Syntax for entering values:
+1204	-> Signed decimal integer
+0x1000  -> Signed hexadecimal integer
+01000u  -> Unsigned octal integer
+44UL    -> Unsigned decimal long
+22h     -> Short decimal
+22uh    -> Unsigned short decimal
+100f    -> Float decimal
+100.0   -> Double decimal
+'a'     -> Signed character
+\032    -> Unsigned character
+b11011  -> Unsigned binary integer
+
+Base/printf conversion commands:
+hex     -> convert an entry to hexadecimal
+oct     -> convert an entry to octal
+dec     -> convert an entry to decimal
+bin     -> convert an entry to binary
+chr     -> convert an entry's output to character
+uchr    -> convert an entry's to unsigned character
+
+Size conversion commands:
+(char)           -> convert an entry to signed char
+(unsigned char)  -> convert an entry to unsigned char
+(short)          -> convert an entry to signed short
+(unsigned short) -> convert an entry to unsigned short
+(int)            -> convert an entry to signed integer
+(unsigned int)   -> convert an entry unsigned integer
+(long)           -> convert an entry to signed long
+(unsigned long)  -> convert an entry to unsigned long
+(float)          -> convert an entry to float
+(double)         -> convert an entry to double
+
+Operations:
++               -> add two numbers on the stack
+-               -> subtract two numbers on the stack
+*               -> multiply two numbers on the stack
+/               -> divide two numbers on the stack
+>>              -> right shift value on stack level 1 by the value on
+                   stack level 0
+<<              -> left shift value on stack level 1 by the value on
+                   stack level 0
+|               -> or two numbers on the stack
+&               -> and two numbers on the stack
+%               -> mod two numbers on the stack
+~               -> 'bitwise not' an entry on the stack
+^               -> xor two numbers on the stack
+
+Stack commands:
+a     -> display a detailed view of the stack.  Includes value, type, 
+         base and stack level
+f     -> display the stack.  Includes stack level and the value
+d     -> duplicate value on stack
+p     -> print value on top of stack
+c     -> clear stack
+x     -> delete value on stack
+s     -> swap stack levels 0 and 1
+j     -> rotate stack down
+k     -> rotate stack up
+q     -> quit
+
+Detailed stack manipulation:
+Each value can be accessed by its level on the stack and all values on the
+stack can be manipulated with the 'all' keyword.
+hex:2 -> will change the base for the value on stack level 2
+x:4   -> will delete the value on stack level 4
+bin:all -> change all values to binary
+hex:all -> change all values to hex
+
+Other commands:
+h       -> help (prints this document to screen)
+sizeof  -> displays the size in bytes of the different C types
+ctime   -> Uses the value on the stack as a time_t value and displays
+           the date/time string from ctime().
+------------------------------------------------------------------------------
+

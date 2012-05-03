@@ -1,0 +1,26 @@
+total 1112
+-rw-r-----  1 j  staff    610 May 25  2006 Makefile
+-rw-r--r--  1 j  staff    191 Mar 18  2005 WHAT.c
+-rw-r-----  1 j  staff  75222 May 20  1998 add.c
+-rw-r--r--  1 j  staff      0 Oct  2 16:20 age
+-rw-r-----  1 j  staff  24622 May 20  1998 and.c
+-rw-r-----  1 j  staff   2313 Mar 14  2003 bit_comp.c
+-rw-r-----  1 j  staff  21545 Mar 18  2005 coms.c
+-rw-r-----  1 j  staff  75225 May 20  1998 div.c
+-r--r-----  1 j  staff   3540 Aug  7  1997 dlist.c
+-r--r-----  1 j  staff   1191 Aug  7  1997 dlist.h
+-rwxr-x---  1 j  staff    247 Jun  3  1998 e.sh*
+-rwxr-x---  1 j  staff    382 May 20  1998 enum.sh*
+-rw-r-----  1 j  staff    573 Mar 17  2003 help.c
+-rw-r-----  1 j  staff    169 Aug  7  1997 init.c
+-rw-r-----  1 j  staff   1766 Oct  2 16:12 jc.h
+-rw-r-----  1 j  staff   5182 Mar 18  2005 jc.l
+-rw-r-----  1 j  staff  24949 May 20  1998 lshift.c
+-rw-r-----  1 j  staff  24622 May 27  1998 mod.c
+-rw-r-----  1 j  staff  75223 May 20  1998 mult.c
+-rw-r-----  1 j  staff    788 May 20  1998 ops.c
+-rw-r-----  1 j  staff  24621 May 20  1998 or.c
+-rw-r-----  1 j  staff   4104 Mar 17  2003 push.c
+-rw-r-----  1 j  staff  24949 May 20  1998 rshift.c
+-rw-r-----  1 j  staff  75222 May 20  1998 sub.c
+-rw-r-----  1 j  staff  24622 Mar 14  2003 xor.c
