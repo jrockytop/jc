@@ -1,0 +1,8 @@
+
+jc - A reverse polish programmers calculator inspired by dc, C, 
+and HP calculators.  
+
+The file "DOCUMENTATION" contains a short description on how to use
+the calculator.
+
+For now, the program is built by typing 'make'
